@@ -1,4 +1,4 @@
-BIN = $(shell basename $(shell PWD))
+BIN = $(shell basename $(shell PWD)).cmd
 
 .PHONY: all test
 all: build test
